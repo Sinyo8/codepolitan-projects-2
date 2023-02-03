@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Girassol&family=Orbitron&family=Pacifico&family=Poppins:wght@300;400&family=Space+Mono&display=swap");
+* {
+  font-family: "Orbitron", sans-serif;
+}
+
+:root {
+  --pinkyboy-color: #f94f6d;
+  --pinkyboy-hover: #f94f6eda;
+}
+
+body {
+  background-color: #333;
+  color: #fff;
+}
+
+.scoreboard {
+  min-height: 100vh;
+}
+h2 {
+  text-transform: uppercase;
+}
+p {
+  font-size: 4em;
+}
+
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: var(--pinkyboy-color);
+  --bs-btn-border-color: var(--pinkyboy-color);
+  --bs-btn-hover-color: rgba(255, 255, 255, 0.699);
+  --bs-btn-hover-bg: var(--pinkyboy-color);
+  --bs-btn-hover-border-color: var(--pinkyboy-hover);
+  --bs-btn-focus-shadow-rgb: 49, 132, 253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: var(--pinkyboy-color);
+  --bs-btn-active-border-color: var(--pinkyboy-color);
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #0d6efd;
+  --bs-btn-disabled-border-color: #0d6efd;
+}
+
+.custom-btn {
+  display: inline-block;
+  width: 50px;
+  border-radius: 10px;
+}
+
+select {
+  width: 100px;
+  text-align: center;
+  border-radius: 10px;
+}
+.points p {
+  font-weight: 400;
+  font-size: 80px;
+  background: #000;
+  color: rgb(216, 8, 129);
+  min-width: 205px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 3px 3px rgba(216, 8, 129, 0.644);
+}
